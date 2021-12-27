@@ -1,5 +1,6 @@
 # Developer
 #### WakaTime ile Çalışma Süremi ve Gelişimimi Takip Edebilirsiniz
+##### Veriler 2021 Temmuzdan başlıyor. :D
 
 <a href="https://wakatime.com"><img width="75%" src="https://wakatime.com/share/@24d66658-6119-4ac4-8f6a-4476ebfba1ff/52307ec9-5d2e-4aaa-96a0-ec190a83df74.png" /></a>
 
