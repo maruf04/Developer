@@ -12,3 +12,7 @@
 
 <a href="https://wakatime.com"><img width="75%" src="https://wakatime.com/share/@24d66658-6119-4ac4-8f6a-4476ebfba1ff/696d6fe1-7655-435f-81e9-00b8b761267c.png" /></a>
 
+- 📄 Know about my experiences [https://maruf04.github.io/Developer/](https://maruf04.github.io/Developer/)
+
+- 📄 Know about my experiences [https://linktr.ee/marufakan](https://linktr.ee/marufakan)
+
