@@ -14,5 +14,3 @@
 
 - 📄 Know about my experiences [https://maruf04.github.io/Developer/](https://maruf04.github.io/Developer/)
 
-- 📄 Know about my experiences [https://linktr.ee/marufakan](https://linktr.ee/marufakan)
-
