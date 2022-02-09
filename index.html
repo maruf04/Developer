@@ -1,235 +1,318 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <!-- =====BOX ICONS===== -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png" />
-    <title>Maruf Akan</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <body>
-    <!--===== HEADER =====-->
-    <header class="l-header">
-      <nav class="nav bd-grid">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <!-- =====BOX ICONS===== -->
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png" />
+  <title>Maruf Akan</title>
+</head>
+
+<body>
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <a href="#" class="nav__logo">Maruf Akan</a>
+      </div>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active">Ana Menü</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Hakkında</a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">Yetenekler</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Portfolyo</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">İletişim</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid" id="home">
+      <div class="home__data">
+        <h1 class="home__title">
+          Selam,<br />Ben <span class="home__title-color">Maruf</span><br />
+          <span class="home__titleV2-color">I'm a Software Engineer</span>
+        </h1>
+
+        <a href="assets/CV.pdf" target="_blank" class="button">CV İndir</a>
+      </div>
+
+      <div class="home__social">
+        <a href="https://www.linkedin.com/in/maruf-akan/" class="home__social-icon"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/maruf04" class="home__social-icon"><i class="bx bxl-github"></i></a>
+      </div>
+
+      <div class="home__img">
+        <img src="assets/img/home.jpg" alt="" />
+      </div>
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section" id="about">
+      <h2 class="section-title">Hakkında</h2>
+
+      <div class="about__container bd-grid">
+        <div class="about__img">
+          <img src="assets/img/net.jpg" alt="" />
+        </div>
+
         <div>
-          <a href="#" class="nav__logo">Maruf Akan</a>
+          <h2 class="about__subtitle">Ben Maruf</h2>
+          <p class="about__text">
+            Merhaba ben Maruf Akan.
+            Fırat Üniversitesi Yazılım Mühendisliği bölümünden mezun taze bir mühendisim.
+            En büyük motivasyonum kendini geliştirmek, insanların hayatına etki eden yazılımlar üzerinde çalışmaktır.
+          </p>
         </div>
+      </div>
+    </section>
 
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active">Ana Menü</a>
-            </li>
-            <li class="nav__item">
-              <a href="#about" class="nav__link">Hakkında</a>
-            </li>
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">Yetenekler</a>
-            </li>
-            <li class="nav__item">
-              <a href="#work" class="nav__link">Portfolyo</a>
-            </li>
-            <li class="nav__item">
-              <a href="#contact" class="nav__link">İletişim</a>
-            </li>
-          </ul>
-        </div>
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Yetenekler</h2>
 
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="bx bx-menu"></i>
-        </div>
-      </nav>
-    </header>
-
-    <main class="l-main">
-      <!--===== HOME =====-->
-      <section class="home bd-grid" id="home">
-        <div class="home__data">
-          <h1 class="home__title">
-            Selam,<br />Ben <span class="home__title-color">Maruf</span><br />
-            <span class="home__titleV2-color">I'm a Software Engineer</span>
-          </h1>
-
-          <a href="assets/CV.pdf" target="_blank" class="button">CV İndir</a>
-        </div>
-
-        <div class="home__social">
-          <a
-            href="https://www.linkedin.com/in/maruf-akan/"
-            class="home__social-icon"
-            ><i class="bx bxl-linkedin"></i
-          ></a>
-          <a href="https://github.com/maruf04" class="home__social-icon"
-            ><i class="bx bxl-github"></i
-          ></a>
-        </div>
-
-        <div class="home__img">
-          <img src="assets/img/home.jpg" alt="" />
-        </div>
-      </section>
-
-      <!--===== ABOUT =====-->
-      <section class="about section" id="about">
-        <h2 class="section-title">Hakkında</h2>
-
-        <div class="about__container bd-grid">
-          <div class="about__img">
-            <img src="assets/img/net.jpg" alt="" />
-          </div>
-
-          <div>
-            <h2 class="about__subtitle">Ben Maruf</h2>
-            <p class="about__text">
-              Nesatılır firmasında web developer olarak görev almaktayım.
-              Backend alanında Django, python; Front-end alanında Js, Jquery gibi teknolojileri kullanarak yazılımlar geliştiriyorum. Fırat Üniversitesi
-              Yazılım Mühendisliği bölümü 4.sınıf öğrencisiyim.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!--===== SKILLS =====-->
-      <section class="skills section" id="skills">
-        <h2 class="section-title">Yetenekler</h2>
-
-        <div class="skills__container bd-grid">
-          <div>
-            <h2 class="skills__subtitle">Profesyonel Yetenekler</h2>
-            <p class="skills__text">
-              Backend alanında Django,
-              Front-end alanında js,Jquery ile ilgileniyorum.
-            </p>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bx-code-curly skills__icon"></i>
-                <span class="skills__name">Django</span>
-              </div>
-              <!-- <div class="skills__bar skills__css"></div> -->
-              <!-- <div>
+      <div class="skills__container bd-grid">
+        <div>
+          <h2 class="skills__subtitle">Profesyonel Yetenekler</h2>
+          <p class="skills__text">
+            Backend alanında Django,
+            Front-end alanında js, Bootstrap, Jquery ile ilgileniyorum.
+          </p>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="bx bx-code-curly skills__icon"></i>
+              <span class="skills__name">Django</span>
+            </div>
+            <!-- <div class="skills__bar skills__css"></div> -->
+            <!-- <div>
                 <span class="skills__percentage">70%</span>
               </div> -->
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="bx bxl-javascript skills__icon"></i>
+              <span class="skills__name">JAVASCRIPT</span>
             </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-javascript skills__icon"></i>
-                <span class="skills__name">JAVASCRIPT</span>
-              </div>
-              <!-- <div class="skills__bar skills__js"></div> -->
-              <!-- <div>
+            <!-- <div class="skills__bar skills__js"></div> -->
+            <!-- <div>
                 <span class="skills__percentage">25%</span>
               </div> -->
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="bx bx-code-block skills__icon"></i>
+              <span class="skills__name">Python</span>
             </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bx-code-block skills__icon"></i>
-                <span class="skills__name">Python</span>
-              </div>
-              <!-- <div class="skills__bar skills__ux"></div> -->
-              <!-- <div>
+            <!-- <div class="skills__bar skills__ux"></div> -->
+            <!-- <div>
                 <span class="skills__percentage">70%</span>
               </div> -->
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="bx bx-code-block skills__icon"></i>
+              <span class="skills__name">PostgreSqlL</span>
             </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bx-code-block skills__icon"></i>
-                <span class="skills__name">PostgreSqlL</span>
-              </div>
-              <!-- <div class="skills__bar skills__sql"></div> -->
-              <!-- <div>
+            <!-- <div class="skills__bar skills__sql"></div> -->
+            <!-- <div>
                 <span class="skills__percentage">40%</span>
               </div> -->
-            </div>
-          </div>
-
-          <div>
-            <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="" class="skills__img" />
           </div>
         </div>
-      </section>
 
-      <!--===== WORK =====-->
-      <section class="work section" id="work">
-        <h2 class="section-title">Portfolyo</h2>
-
-        <div class="work__container bd-grid">
-          <div class="work__img">
-            <h2 class="skills__subtitle">Market fiyatları</h2>
-            <a
-              target="_blank"
-              href="https://yunusemrebelet.github.io/Market-Price-UI/"
-            >
-              <img src="assets/img/market1.png" alt="" />
-            </a>
-          </div>
-          <div class="work__img">
-            <h2 class="skills__subtitle">Kart Oyunu</h2>
-            <a
-              target="_blank"
-              href="https://maruf04.github.io/cardgame.github.io/"
-            >
-              <img src="assets/img/kart1.png" alt="" />
-            </a>
-          </div>
+        <div>
+          <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="" class="skills__img" />
         </div>
-      </section>
-
-      <!--===== CONTACT =====-->
-      <section class="contact section" id="contact">
-        <h2 class="section-title">İletişim</h2>
-
-        <div class="contact__container bd-grid">
-          <form action="" class="contact__form">
-            <input type="text" placeholder="Adınız" class="contact__input" />
-            <input type="mail" placeholder="Email" class="contact__input" />
-            <textarea
-              name=""
-              id=""
-              cols="0"
-              rows="10"
-              class="contact__input"
-            ></textarea>
-            <input
-              type="button"
-              value="Gönder"
-              class="contact__button button"
-            />
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <!--===== FOOTER =====-->
-    <footer class="footer">
-      <p class="footer__title">
-        Sosyal medya hesaplarımdan bana ulaşabilirsiniz.
-      </p>
-      <div class="footer__social">
-        <a href="https://www.linkedin.com/in/maruf-akan/" class="footer__icon"
-          ><i class="bx bxl-linkedin-square"></i
-        ></a>
       </div>
-      <p>&#169; 2021 copyright all right reserved</p>
-    </footer>
+    </section>
 
-    <!--===== SCROLL REVEAL =====-->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <!--===== WORK =====-->
+    <section class="work section" id="work">
+      <h2 class="section-title">Portfolyo</h2>
 
-    <!--===== MAIN JS =====-->
-    <script src="assets/js/main.js"></script>
-  </body>
+      <div class="work__container bd-grid">
+        <div class="work__img">
+          <h2 class="skills__subtitle ml-3">Market Fiyatları</h2>
+          <img src="assets/img/market1.png" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">Market Fiyatları</h5>
+            <p class="card-text">Nesatılır.com staj yaparken backend ve front-end kısmında görev aldığım proje. 4 Farklı marketin websitesinin dinlenerek 7 milyon üzerinde verinin biriktirildiği, bu verilerin anlamlandırılarak arayüze giydirildiği ve kullanıcıların ürünleri fiyat, marka vb. parametreler ile karşılaştırabileceği bir yazılım aracı</p>
+            <a href="#" target="_blank" class="btn btn-primary">Github</a>
+            <a target="_blank" href="https://yunusemrebelet.github.io/Market-Price-UI/" class="btn btn-primary">Demo</a>
+          </div>
+        </div>
+        <div class="work__img">
+          <h2 class="skills__subtitle ml-3">Trend Analizi</h2>
+          <img src="" />
+          <div class="card-body">
+            <h5 class="card-title">Trend Analizi</h5>
+            <p class="card-text">Nesatılır.com staj yaparken backend kısmında görev aldığım proje. 2 farklı e-ticaret sitelerinden ürünlerin karşılaştırılabileceği, biriktirilen ve karşılaştırılan kelimeler ile trend ürünlerin bulunabileceği bir yazılım aracı</p>
+            <a href="" target="_blank" class="btn btn-primary">Github</a>
+            <a href="#" target="_blank" class="btn btn-primary">Demo</a>
+          </div>
+        </div>
+        <div class="work__img">
+          <h2 class="skills__subtitle ml-3">Kart Eşleştirme Oyunu</h2>
+          <a target="_blank" >
+            <img src="assets/img/kart1.png" alt="" />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Kart eşleştirme oyunu</h5>
+            <p class="card-text"> nesatılır.com'da kısa zamanda js öğrenerek yaptığım kart eşleştirme oyunu</p>
+            <a href="https://github.com/maruf04/cardgame.github.io" target="_blank" class="btn btn-primary">Github</a>
+            <a href="https://maruf04.github.io/cardgame.github.io/" target="_blank" class="btn btn-primary">Demo</a>
+          </div>
+        </div>
+        <div class="work__img">
+          <h2 class="skills__subtitle ml-3">Examples of Coderbyte</h2>
+          <img
+            src="https://cdn.dribbble.com/users/930637/screenshots/3746665/attachments/841977/coderbyte_dark.png?compress=1&resize=400x300" />
+          <div class="card-body">
+            <h5 class="card-title">examples-of-coderbyte</h5>
+            <p class="card-text">Çözdüğüm coderbyte testlerini biriktirdiğim github reposu</p>
+            <a href="https://github.com/maruf04/examples-of-coderbyte" target="_blank" class="btn btn-primary">Github</a>
+            <a href="#" target="_blank" class="btn btn-primary">Demo</a>
+          </div>
+        </div>
+        <div class="work__img">
+          <h2 class="skills__subtitle ml-3">Todo</h2>
+          <img src="https://play-lh.googleusercontent.com/HUuQc4Zpl6x7fUyX-jFMmcuUbW77REw4UKl5rfhHfP4VY6ctBU1w1I_RZWsXaojFgIo" />
+          <div class="card-body">
+            <h5 class="card-title">Todo</h5>
+            <p class="card-text">Html, Css, Bootstrap ve javascript kullanarak oluşturduğum bir website</p>
+            <a href="https://github.com/maruf04/ToDo" target="_blank" class="btn btn-primary">Github</a>
+            <a href="https://maruf04.github.io/ToDo/" target="_blank" class="btn btn-primary">Demo</a>
+          </div>
+        </div>
+        <div class="work__img">
+          <h2 class="skills__subtitle ml-3">Learn Js</h2>
+          <img src="https://blog.logrocket.com/wp-content/uploads/2020/10/deep-cloning-objects-javascript.png" />
+          <div class="card-body">
+            <h5 class="card-title">Learn Js</h5>
+            <p class="card-text">Javascript ile ilgili öğrendiklerimi biriktirdiğim github reposu</p>
+            <a href="#" target="_blank" class="btn btn-primary">Github</a>
+            <a href="#" target="_blank" class="btn btn-primary">Demo</a>
+          </div>
+        </div>
+        <div class="work__img">
+          <h2 class="skills__subtitle ml-3">Developer</h2>
+          <img src="https://camo.githubusercontent.com/18b21da7ce528544e87249cd3ad4c416e6b52c40b0f633f7beb2876dbc70fb69/68747470733a2f2f77616b6174696d652e636f6d2f73686172652f4032346436363635382d363131392d346163342d386636612d3434373665626662613166662f35323330376563392d356432652d346161612d393661302d6563313930613833646637342e706e67" />
+          <div class="card-body">
+            <h5 class="card-title">Developer</h5>
+            <p class="card-text">WakaTime ile çalışma süremi ve gelişimimi takip edebiliceğiniz github reposu</p>
+            <a href="https://github.com/maruf04/Developer" target="_blank" class="btn btn-primary">Github</a>
+            <a href="#" target="_blank" class="btn btn-primary">Demo</a>
+          </div>
+        </div>
+        <div class="work__img">
+          <h2 class="skills__subtitle ml-3">Kodluyoruz-Front-End</h2>
+          <img src="https://www.digitaltalks.org/wp-content/uploads/2018/01/kodluyoruz-1132x670.jpg" />
+          <div class="card-body">
+            <h5 class="card-title">Kodluyoruz-Front-End</h5>
+            <p class="card-text">Kodluyoruz Front-end patikasında yaptığım proje ve alıştırmaları eklediğim repo</p>
+            <a href="https://github.com/maruf04/Kodluyoruz-Front-End" target="_blank" class="btn btn-primary">Github</a>
+            <a href="#" target="_blank" class="btn btn-primary">Demo</a>
+          </div>
+        </div>
+        <div class="work__img">
+          <h2 class="skills__subtitle ml-3">Plaka-Kac-Uygulamasi</h2>
+          <img src="https://besthqwallpapers.com/Uploads/28-1-2020/119942/thumb2-java-logo-white-silk-texture-java-emblem-programming-language-java.jpg" />
+          <div class="card-body">
+            <h5 class="card-title">plaka-Kac-Uygulamasi</h5>
+            <p class="card-text">Java kullanarak oluşturduğum basit bir mobil uygulama</p>
+            <a href="https://github.com/maruf04/plaka-Kac-Uygulamasi" target="_blank" class="btn btn-primary">Github</a>
+            <a href="#" target="_blank" class="btn btn-primary">Demo</a>
+          </div>
+        </div>
+        <div class="work__img">
+          <h2 class="skills__subtitle ml-3">Siber Zorbalık</h2>
+          <img src="https://i0.wp.com/fikirilegelecek.com/wp-content/uploads/2020/03/DW-YEVOXcAAqkxu.jpg?fit=1024%2C512&ssl=1" />
+          <div class="card-body">
+            <h5 class="card-title">Siber Zorbalık</h5>
+            <p class="card-text">Flutter kullanarak oluşturduğum, kötü kelimeleri filtreleyen basit bir mobil uygulama</p>
+            <a href="https://github.com/maruf04/Siber-Zorbalik" target="_blank" class="btn btn-primary">Github</a>
+            <a href="#" target="_blank" class="btn btn-primary">Demo</a>
+          </div>
+        </div>
+        <div class="work__img">
+          <h2 class="skills__subtitle ml-3">Kuş ve Kelebeği Ayıran Uygulama</h2>
+          <img src="https://cdn.images.express.co.uk/img/dynamic/40/590x/617445_1.jpg" />
+          <div class="card-body">
+            <h5 class="card-title">Siber Zorbalık</h5>
+            <p class="card-text">Flutter kullanarak ve tensorflow kütüphanesini kullanarak oluşturduğum kuş ve kelebeği birbirinden ayırabilen basit bir mobil uygulama</p>
+            <a href="https://github.com/maruf04/Kus_ve_Kelebegi_Birbirinden_Ayiran_Mobil_Uygulama" target="_blank" class="btn btn-primary">Github</a>
+            <a href="#" target="_blank" class="btn btn-primary">Demo</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--===== CONTACT =====-->
+    <section class="contact section" id="contact">
+      <h2 class="section-title">İletişim</h2>
+
+      <div class="contact__container bd-grid">
+        <form action="" class="contact__form">
+          <input type="text" placeholder="Adınız" class="contact__input" />
+          <input type="mail" placeholder="Email" class="contact__input" />
+          <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+          <input type="button" value="Gönder" class="contact__button button" />
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--===== FOOTER =====-->
+  <footer class="footer">
+    <p class="footer__title">
+      Sosyal medya hesaplarımdan bana ulaşabilirsiniz.
+    </p>
+    <div class="footer__social">
+      <a href="https://www.linkedin.com/in/maruf-akan/" class="footer__icon"><i class="bx bxl-linkedin-square"></i></a>
+    </div>
+    <p>&#169; 2021 copyright all right reserved</p>
+  </footer>
+
+  <!--===== SCROLL REVEAL =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+  <!--===== MAIN JS =====-->
+  <script src="assets/js/main.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
